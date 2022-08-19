@@ -1,0 +1,30 @@
+.arrow {
+    i {
+        font-size: 15px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        z-index: 999;
+        color: #f0f0f0;
+        background-color: #794e4ec9;
+        &:hover{
+            color: #000;
+        }
+      }
+}
+  

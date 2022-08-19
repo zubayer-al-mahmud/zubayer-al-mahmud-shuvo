@@ -1,0 +1,108 @@
+#contact {
+  padding-top: 75px;
+    background-color: var(--main-color);
+    h3 {
+      font-size: 40px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 25px;
+      padding: 22px 0;
+      font-weight: 300;
+    }
+    .contact_info {
+      padding-bottom: 15px;
+      h4 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      span {
+        font-size: 20px;
+        font-weight: 300;
+      }
+    }
+    .scoial_icon {
+      padding-top: 20px;
+      margin-bottom: 20px;
+      i {
+        
+        font-size: 20px;
+        height: 44px;
+        width: 44px;
+        line-height: 44px;
+        text-align: center;
+        color: rgb(67, 11, 221);
+        display: inline-block;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border: 1px solid #111;
+        margin: 0 15px;
+        &:hover {
+          transform: scale(1.5);
+          -webkit-transform: scale(1.5);
+          -moz-transform: scale(1.5);
+          -ms-transform: scale(1.5);
+          -o-transform: scale(1.5);
+          color: #000;
+        }
+      }
+    }
+    .form-label {
+      padding-top: 22px;
+      font-size: 18px;
+    }
+    .form-control:focus {
+      border-bottom: 1px solid #000 !important;
+    }
+    input {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+      box-shadow: none;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+    }
+    textarea {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+      box-shadow: none;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 15px 25px;
+      background-color: #111;
+      color: #fff;
+      border: none;
+      i {
+        font-size: 20px;
+        padding-left: 15px;
+        color: var(--main-color);
+      }
+    }
+  }
+  .end {
+    padding: 20px 0;
+    background-color: #111;
+    color: #fff;
+    span {
+      color: var(--main-color);
+    }
+  }
+  

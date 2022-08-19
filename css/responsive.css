@@ -1,0 +1,288 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .collapse:not(.show) {
+        display: block;
+    }
+    .menu_bg .phone{
+        display: none;
+    }
+    #banner{
+        padding-top: 150px;
+    }
+    .banner_text{
+        padding-top: 80px;
+    }
+    .banner_text h1{
+        font-size: 40px !important;
+    }
+    .banner_text h2{
+        font-size: 20px !important;
+    }
+    .banner_pic {
+        position: absolute;
+        top: 13% !important;
+        z-index: 1;
+        left: 25%;
+    }
+    .banner_pic img {
+        width: 170px !important;
+        height: 180px !important;
+    }
+    #banner .ami {
+        height: 65vh !important;
+    }
+    #banner .icon {
+        left: 90% !important;
+    }
+    #resume h4 {
+       margin-top: 50px;
+    }
+    .faq_pic {
+        margin-top: 80px !important;
+    }
+    #clint{
+        padding-bottom: 100px;
+    }
+    #clint .slick-dots {
+        left: 60% !important;
+    }
+
+    #contact h3 {
+        padding-top: 50px;
+    }
+    #clint .comment_main p {
+        padding: 0 50px !important;
+    }
+    .information{
+        text-align: center !important;
+    }
+    #faq .faq_pic {
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+        margin-left: 10px !important;
+    }
+    #clint .next {
+        right: -5% !important;
+    }
+    #contact button {
+        margin-bottom: 20px;
+    }
+    .skill{
+        padding-top: 30px;
+    }
+    #portfolio .mixit .port_inner h5 {
+        font-size: 16px !important;
+    }
+    #contact .scoial_icon i {
+       margin-top: 15px !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .collapse:not(.show) {
+        display: block;
+    }
+    .menu_bg .phone{
+        display: none;
+    }
+    #banner{
+        padding-top: 150px;
+    }
+    .banner_text{
+        padding-top: 60px;
+    }
+    .banner_text h1{
+        font-size: 40px !important;
+    }
+    .banner_text h2{
+        font-size: 20px !important;
+    }
+    .banner_pic {
+        position: absolute;
+        top: 13% !important;
+        z-index: 1;
+        left: 35%;
+    }
+    .banner_pic img {
+        width: 170px !important;
+        height: 180px !important;
+    }
+    #banner .ami {
+        height: 65vh !important;
+    }
+    #banner .icon {
+        left: 90% !important;
+    }
+    #resume h4 {
+       margin-top: 50px;
+    }
+    .faq_pic {
+        margin-top: 80px !important;
+    }
+    #clint{
+        padding-bottom: 100px;
+    }
+    #clint .slick-dots {
+        left: 56% !important;
+    }
+
+    #contact h3 {
+        padding-top: 50px;
+    }
+    #clint .comment_main p {
+        padding: 0 50px 0 50px;
+    }
+    .information{
+        text-align: center !important;
+    }
+    #faq .faq_pic {
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+        margin-left: 10px !important;
+    }
+    #clint .next {
+        right: 2% !important;
+    }
+    #contact button {
+        margin-bottom: 20px;
+    }
+    .skill{
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .skill{
+        padding-top: 30px;
+    }
+    .collapse:not(.show) {
+        display: block;
+    }
+    .menu_bg .phone{
+        display: none;
+    }
+    #banner{
+        padding-top: 150px;
+    }
+    .banner_text{
+        padding-top: 60px;
+    }
+    .banner_text h1{
+        font-size: 40px !important;
+    }
+    .banner_text h2{
+        font-size: 20px !important;
+    }
+    .banner_pic {
+        position: absolute;
+        top: 10% !important;
+        z-index: 1;
+        left: 40%;
+    }
+    .banner_pic img {
+        width: 170px !important;
+        height: 180px !important;
+    }
+    #banner .ami {
+        height: 65vh !important;
+    }
+    #banner .icon {
+        left: 90% !important;
+    }
+    #resume h4 {
+       margin-top: 50px;
+    }
+    .faq_pic {
+        margin-top: 80px !important;
+    }
+    #clint{
+        padding-bottom: 100px;
+    }
+    #clint .slick-dots {
+        left: 57% !important;
+    }
+
+    #contact h3 {
+        padding-top: 50px;
+    }
+    #clint .comment_main p {
+        padding: 0 50px 0 50px;
+    }
+    .information{
+        text-align: center !important;
+    }
+    #contact button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .collapse:not(.show) {
+        display: block;
+    }
+    .menu_bg .phone{
+        display: none;
+    }
+    #banner{
+        padding-top: 150px;
+    }
+    .banner_text{
+        padding-top: 60px;
+    }
+    .banner_text h1{
+        font-size: 40px !important;
+    }
+    .banner_text h2{
+        font-size: 20px !important;
+    }
+    .banner_pic {
+        position: absolute;
+        top: 10% !important;
+        z-index: 1;
+        left: 40%;
+    }
+    .banner_pic img {
+        width: 170px !important;
+        height: 180px !important;
+    }
+    #banner .ami {
+        height: 65vh !important;
+    }
+    #banner .icon {
+        left: 90% !important;
+    }
+    #resume h4 {
+       margin-top: 50px;
+    }
+    .faq_pic {
+        margin-top: 80px !important;
+    }
+    #clint{
+        padding-bottom: 100px;
+    }
+    #clint .slick-dots {
+        left: 55% !important;
+    }
+
+    #contact h3 {
+        padding-top: 50px;
+    }
+    #clint .comment_main p {
+        padding: 0 50px 0 50px;
+    }
+    .information{
+        text-align: center !important;
+    }
+    .skill{
+        padding-top: 30px;
+    }
+    #contact button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}

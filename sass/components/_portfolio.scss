@@ -1,0 +1,146 @@
+#portfolio {
+  padding-top: 70px;
+    h4 {
+      font-size: 16px;
+      font-weight: 400;
+      padding: 10px;
+      background-color: var(--main-color);
+      display: inline-block;
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: 600;
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+    .mixit_main {
+      text-align: center;
+      .mixi_btn {
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: transparent;
+        color: #20c997;
+        font-size: 18px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s;
+        &:hover {
+          color: #111;
+        }
+      }
+    }
+    .mixit {
+      text-align: center;
+      margin-top: 20px;
+      .port {
+        position: relative;
+        margin: 15px 0;
+        img {
+          width: 100%;
+        }
+        .overlay {
+          position: absolute;
+          content: "";
+          background-color: rgba(0, 0, 0, 0.5);
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          opacity: 0;
+          transition: 0.5s;
+          -webkit-transition: 0.5s;
+          -moz-transition: 0.5s;
+          -ms-transition: 0.5s;
+          -o-transition: 0.5s;
+          transform: scale(0);
+          -webkit-transform: scale(0);
+          -moz-transform: scale(0);
+          -ms-transform: scale(0);
+          -o-transform: scale(0);
+          .port_inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            i {
+              color: var(--main-color);
+              font-size: 40px;
+              cursor: pointer;
+            }
+            h5 {
+              font-size: 18px;
+              margin: 10px 0;
+              font-family: "Poppins", sans-serif;
+              font-weight: 500;
+            }
+            span {
+              font-size: 16px;
+              font-family: "Poppins", sans-serif;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    .port:hover .overlay {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      opacity: 1;
+    }
+    .mixitup-control-active {
+      position: relative;
+      color: #111 !important;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s;
+      &::after {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: var(--main-color) !important;
+        display: block;
+      }
+    }
+    .hire {
+      margin: 50px 0;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 7)),
+        url(../../images/hire-me.jpg) no-repeat center / cover;
+      padding: 200px 0;
+      background-attachment: fixed;
+      h3 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 600;
+      }
+      button {
+        border: none;
+        padding: 15px 20px;
+        background: var(--main-color);
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 500;
+          color: #212529;
+        }
+      }
+    }
+  }
+  

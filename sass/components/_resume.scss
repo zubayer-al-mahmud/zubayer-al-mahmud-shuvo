@@ -1,0 +1,45 @@
+#resume{
+    padding-top: 70px;
+    h4{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px;
+        background-color: var(--main-color);
+        display: inline-block;
+    }
+    h3{
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .resume_main{
+        padding: 20px 0;
+        h5{
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+    .resume_text{
+        .edu{
+            padding: 15px 20px;
+            border-left: 2px solid var(--main-color);
+            border-bottom: 1px solid #ddddddcc;
+            h5{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            h6{
+                font-size: 18px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+.skill{
+    padding-top: 50px;
+}
