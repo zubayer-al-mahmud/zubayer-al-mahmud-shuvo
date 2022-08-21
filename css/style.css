@@ -594,7 +594,7 @@ img {
 }
 #portfolio .hire {
   margin: 50px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url(../../images/hire-me.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url(../images/hire-me.jpg) no-repeat center/cover;
   padding: 200px 0;
   background-attachment: fixed;
 }
